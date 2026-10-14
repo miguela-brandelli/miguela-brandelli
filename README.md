@@ -35,10 +35,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.shion.dev/api?username=miguela-brandelli&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false" width="49%" />
-<img src="https://streak-stats.demolab.com/?user=miguela-brandelli&theme=tokyonight&hide_border=true" width="49%" />
+<img src="https://raw.githubusercontent.com/miguela-brandelli/miguela-brandelli/output/stats.svg" width="49%" />
+<img src="https://raw.githubusercontent.com/miguela-brandelli/miguela-brandelli/output/streak.svg" width="49%" />
 
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=miguela-brandelli&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact" width="49%" />
+<img src="https://raw.githubusercontent.com/miguela-brandelli/miguela-brandelli/output/top-langs.svg" width="49%" />
 
 </div>
 
