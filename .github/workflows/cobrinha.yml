@@ -33,6 +33,30 @@ jobs:
          GITHUB_TOKEN: ${{ secrets.SNK_TOKEN }}
          
          
+     # cards generated with your own token (user-approved), actions pinned to commit SHAs
+     - name: generate stats card
+       uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+       with:
+         card: stats
+         options: username=miguela-brandelli&theme=tokyonight&hide_border=true
+         path: dist/stats.svg
+         token: ${{ secrets.SNK_TOKEN }}
+
+     - name: generate top languages card
+       uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+       with:
+         card: top-langs
+         options: username=miguela-brandelli&theme=tokyonight&hide_border=true&layout=compact
+         path: dist/top-langs.svg
+         token: ${{ secrets.SNK_TOKEN }}
+
+     - name: generate streak card
+       uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1 # v1.8.0
+       with:
+         options: user=miguela-brandelli&theme=tokyonight&hide_border=true
+         path: dist/streak.svg
+         token: ${{ secrets.SNK_TOKEN }}
+
      # push the content of <build_dir> to a branch
      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
      - name: push github-contribution-grid-snake.svg to the output branch
